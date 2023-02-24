@@ -192,7 +192,7 @@ return `${Math.floor(Math.random() * 10000)}${ext}`;
 
 const spinner2 = { 
   "interval": 150,
-  "frames": ["CANAL : Youtube.com/aleatoryconteudos"]}
+  "frames": ["CANAL : Youtube.com/"]}
 
 let globalSpinner2;
 
@@ -274,8 +274,8 @@ return `-c ${key}=${value}`
 }).concat(config.presets).filter(Boolean)
 }
 
-authorname = 'ALEATORY-MD-3.0'
-packname = '-JR-'
+authorname = '-'
+packname = '-'
 
 const usedCommandRecently = new Set()
 
